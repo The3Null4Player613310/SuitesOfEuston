@@ -1,7 +1,7 @@
 #header {
-  display: block;
   width: 100%;
   height: 48px;
+  display: block;
   margin: 0px;
   color: #E1B664;
   background-color: #050A14;
@@ -10,6 +10,7 @@
 #header-logo {
   width: 48px;
   height: 48px;
+  display: inline-block;
   padding-left: 12px;
   padding-right: 12px;
   vertical-align: middle;
@@ -18,5 +19,6 @@
 #header-logo-text {
   width: auto;
   height: 48px;
+  display: inline-block;
   vertical-align: middle;
 }
