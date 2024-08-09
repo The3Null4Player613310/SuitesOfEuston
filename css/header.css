@@ -6,3 +6,11 @@
   color: #E1B664;
   background-color: #050A14;
 }
+
+#header-logo {
+  width: 48px;
+  height: 48px;
+  padding-left: 12px;
+  padding-right: 12px;
+  vertical-align: middle;
+}
