@@ -7,6 +7,11 @@ Parking
 Address
 Include map
 
+Colors
+gold  #E1B664
+black #050A14
+brick #8B655E
+
 "historic boutique hotel"
 11 rooms
 kitchenette and bathroom
