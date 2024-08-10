@@ -8,6 +8,7 @@ body {
   color: white;
   background-color: #8B655E;
   background-image: url("/SuitesOfEuston/img/background-brick.png");
+  background-attachment: fixed;
   background-position: center;
   background-position-x: center;
   background-position-y: center;
