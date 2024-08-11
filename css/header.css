@@ -31,6 +31,17 @@
 
 .header-item {
   width: auto;
+  height: 48px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-item.right {
+  align: right; 
+}
+
+.header-item > a > div {
+  width: auto;
   height: 32px;
   line-height: 1;
   font-size: 32px;
@@ -38,4 +49,27 @@
   padding-bottom: 8px;
   display: inline-block;
   vertical-align: middle;
+}
+
+.header-item > a {
+  width: auto;
+  height: 32px;
+  align: center;
+  line-height: 1;
+  font-size 32px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #E1B664;
+}
+
+.header-item > a:link {
+  color: #E1B664;
+}
+
+.header-item > a:visited {
+  color: #E1B664;
+}
+
+.header-item > a:hover {
+  color: #E1B664;
 }
