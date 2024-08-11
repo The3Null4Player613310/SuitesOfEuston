@@ -28,3 +28,14 @@
   display: inline-block;
   vertical-align: middle;
 }
+
+.header-item {
+  width: auto;
+  height: 32px;
+  line-height: 1;
+  font-size: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
