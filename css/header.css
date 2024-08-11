@@ -37,7 +37,7 @@
 }
 
 .header-item.right {
-  text-align: right; 
+  float: right; 
 }
 
 .header-item > a > div {
