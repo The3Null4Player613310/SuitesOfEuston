@@ -17,6 +17,18 @@ div.footer-item > a {
   
 }
 
+div.footer-item > a:link {
+  color: #E1B664;
+}
+
+div.footer-item > a:visited {
+  color: #E1B664;
+}
+
+div.footer-item > a:hover {
+  color: #E1B664;
+}
+
 div.footer-item > a > div {
   width: auto;
   height 16px;
