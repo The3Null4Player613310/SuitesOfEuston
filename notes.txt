@@ -12,6 +12,18 @@ gold  #E1B664
 black #050A14
 brick #8B655E
 
+#182132
+#0C1321
+#050A14
+#01040A
+#000102
+
+#DABBB5
+#B08A83
+#8B655E
+#5B3D37
+#562921
+
 "historic boutique hotel"
 11 rooms
 kitchenette and bathroom
