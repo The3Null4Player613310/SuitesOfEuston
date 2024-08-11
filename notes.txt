@@ -24,6 +24,12 @@ brick #8B655E
 #5B3D37
 #562921
 
+tiny    16% 
+small   33%
+medium  50%
+large   66%
+huge    83%
+
 "historic boutique hotel"
 11 rooms
 kitchenette and bathroom

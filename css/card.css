@@ -18,27 +18,27 @@
 
 @media only screen and (min-width: 927px) {
   .card {
-    width: calc(50% - 16px - 24px - 10px);
+    width: calc(50% - 16px - 24px);
   }
 
   .card.card-tiny {
-    width: calc(16% - 16px - 24px - 10px);
+    width: calc(16% - 16px - 24px);
   }
 
   .card.card-small {
-    width: calc(33% - 16px - 24px - 10px);
+    width: calc(33% - 16px - 24px);
   }
 
   .card.card-medium {
-    width: calc(50% - 16px - 24px - 10px);
+    width: calc(50% - 16px - 24px);
   }
 
   .card.card-large {
-    width: calc(66% - 16px - 24px - 10px);
+    width: calc(66% - 16px - 24px);
   }
 
   .card.card-huge {
-    width: calc(83% - 16px - 24px - 10px);
+    width: calc(83% - 16px - 24px);
   }
 }
 
