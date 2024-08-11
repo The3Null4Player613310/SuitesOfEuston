@@ -37,7 +37,7 @@
 }
 
 .header-item.right {
-  align: right; 
+  text-align: right; 
 }
 
 .header-item > a > div {
@@ -54,9 +54,9 @@
 .header-item > a {
   width: auto;
   height: 32px;
-  align: center;
+  text-align: center;
   line-height: 1;
-  font-size 32px;
+  font-size: 32px;
   display: inline-block;
   vertical-align: middle;
   color: #E1B664;
