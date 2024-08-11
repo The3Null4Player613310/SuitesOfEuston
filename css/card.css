@@ -22,23 +22,23 @@
   }
 
   .card.card-tiny {
-    width: calc(16% - 16px - 24px);
+    width: calc(16.666% - 16px - 24px);
   }
 
   .card.card-small {
-    width: calc(33% - 16px - 24px);
+    width: calc(33.333% - 16px - 24px);
   }
 
   .card.card-medium {
-    width: calc(50% - 16px - 24px);
+    width: calc(50.000% - 16px - 24px);
   }
 
   .card.card-large {
-    width: calc(66% - 16px - 24px);
+    width: calc(66.666% - 16px - 24px);
   }
 
   .card.card-huge {
-    width: calc(83% - 16px - 24px);
+    width: calc(83.333% - 16px - 24px);
   }
 }
 
