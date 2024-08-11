@@ -42,6 +42,18 @@
   }
 }
 
+.card.card-height-short {
+  height: 214px;
+}
+
+.card.card-height-medium {
+  height: 428px;
+}
+
+.card.card-height-tall {
+  height: 642px;
+}
+
 .card {
   display: inline-block;
   vertical-align: top;
