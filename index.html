@@ -42,19 +42,6 @@
     </div>
     <div id="content">
       <div class="card card-tiny">
-        <form action="https://www.expedia.ca/Hotel-Search" method="get" target="_blank" autocomplete="on" name="Booking Form">
-          <input type="hidden" id="H-DESTINATION" name="destination" value="Suites of Euston">
-          <input type="hidden" id="H-REWARDS" name="useRewards" value="false">
-          <input type="hidden" id="H-SORT" name="sort" value="RECOMMENDED">
-          <input type="hidden" id="H-SELECTED" name="selected" value="4592304">
-          <label for="ADULTS">Guests:</label>
-          <input type="number" id="ADULTS" name="adults" value="2" min="1" max="5"><br>
-          <label for="CHECK-IN">Check-in date:</label>
-          <input type="date" id="CHECK-IN" name="startDate" required><br>
-          <label for="CHECK-OUT">Check-out date:</label>
-          <input type="date" id="CHECK-OUT" name="endDate" required><br>
-          <input type="submit" value="Book Now">
-        </form>
       </div>
       <div class="card card-huge">
       </div>
@@ -62,8 +49,44 @@
         Under Construction
       </div>
       <div class="card card-small">
-        call: <a href="tel:+1-902-314-0364">+1-902-314-0364</a><br>
-        email: <a href="mailto:info@suitesofeuston.ca">info@suitesofeuston.ca</a><br>
+        <form action="https://www.expedia.ca/Hotel-Search" method="get" target="_blank" autocomplete="on" name="Booking Form">
+          <input type="hidden" id="H-DESTINATION" name="destination" value="Suites of Euston">
+          <input type="hidden" id="H-REWARDS" name="useRewards" value="false">
+          <input type="hidden" id="H-SORT" name="sort" value="RECOMMENDED">
+          <input type="hidden" id="H-SELECTED" name="selected" value="4592304">
+          <table>
+            <thead>
+            </thead>
+            <tbody>
+            <tr>
+                <td><label for="ADULTS">Guests:</label></td>
+                <td span="2"><input type="number" id="ADULTS" name="adults" value="2" min="1" max="5"></td>
+              </tr>
+              <tr>
+                <td><label for="CHECK-IN">Check-in date:</label></td>
+                <td span="2"><input type="date" id="CHECK-IN" name="startDate" required></td>
+              </tr>
+              <tr>
+                <td><label for="CHECK-OUT">Check-out date:</label></td>
+                <td span="2"><input type="date" id="CHECK-OUT" name="endDate" required></td>
+              </tr>
+              <tr>
+                <td span="2"></td>
+                <td><input type="submit" value="Book Now"></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>call:</td>
+                <td span="2"><a href="tel:+1-902-314-0364">+1-902-314-0364</a></td>
+              </tr>
+              <tr>
+                <td>email:</td>
+                <td span="2"><a href="mailto:info@suitesofeuston.ca">info@suitesofeuston.ca</a></td>
+              </tr> 
+            </tfoot>
+          </table>
+        </form>        
       </div>
       <div class="card card-tiny card-height-tall">
         Under Construction
