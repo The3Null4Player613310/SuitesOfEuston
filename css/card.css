@@ -1,60 +1,60 @@
 @media only screen and (max-width: 428px) and (min-width: 214px) {
-  .card {
+  div.card {
     width: calc(100% - 16px - 24px);
   }
 }
 
 @media only screen and (max-width: 444px) and (min-width: 429px) {
-  .card {
+  div.card {
     width: calc(100% - 16px - 24px);
   }
 }
 
 @media only screen and (max-width: 926px) and (min-width: 445px) {
-  .card {
+  div.card {
     width: calc(50% - 16px - 24px - 10px);
   }
 }
 
 @media only screen and (min-width: 927px) {
-  .card {
+  div.card {
     width: calc(50% - 16px - 24px);
   }
 
-  .card.card-tiny {
+  div.card.card-tiny {
     width: round(down, calc(16.499% - 16px - 24px), 1px);
   }
 
-  .card.card-small {
+  div.card.card-small {
     width: round(down, calc(32.999% - 16px - 24px), 1px);
   }
 
-  .card.card-medium {
+  div.card.card-medium {
     width: round(down, calc(49.500% - 16px - 24px), 1px);
   }
 
-  .card.card-large {
+  div.card.card-large {
     width: round(down, calc(65.999% - 16px - 24px), 1px);
   }
 
-  .card.card-huge {
+  div.card.card-huge {
     width: round(down, calc(82.499% - 16px - 24px), 1px);
   }
 }
 
-.card.card-height-short {
+div.card.card-height-short {
   height: 214px;
 }
 
-.card.card-height-medium {
+div.card.card-height-medium {
   height: 428px;
 }
 
-.card.card-height-tall {
+div.card.card-height-tall {
   height: 642px;
 }
 
-.card {
+div.card {
   display: inline-block;
   vertical-align: top;
   height: 214px;
@@ -65,3 +65,27 @@
   padding: 12px;
   background-color: #0C1321;
 }
+
+div.card > div.card-title {
+  width: parent;
+  height: 32px;
+  margin-top: 8px;
+  line-height: 1;
+  font-size: 32px;
+}
+
+div.card > div.card-title + div.card-title-sub {
+  width: parent;
+  height: 8px;
+  margin-top: 8px;
+  line-height: 1;
+  font-size: 8px;
+}
+
+div.card > div.card-content {
+  width: parent;
+  height: auto;
+  margin-top: 48px;
+  font-size: 12px;
+}
+
