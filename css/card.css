@@ -77,16 +77,16 @@ div.card > div.card-title {
 
 div.card > div.card-title + div.card-title-sub {
   width: parent;
-  height: 12px;
+  height: 10px;
   margin-top: 8px;
   line-height: 1;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 div.card > div.card-content {
   width: parent;
   height: auto;
   margin-top: 48px;
-  font-size: 16px;
+  font-size: 12px;
 }
 
