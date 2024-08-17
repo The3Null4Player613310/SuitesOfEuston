@@ -101,3 +101,15 @@ div.card > div.card-content {
   overflow-y: scroll;
 }
 
+div.card > div.card-content > img.card-picture {
+  width: parent;
+  height: calc(100%);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
