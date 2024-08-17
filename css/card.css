@@ -104,6 +104,8 @@ div.card > div.card-content {
 div.card > div.card-content > img.card-picture {
   width: parent;
   height: calc(100%);
+  margin-left: auto;
+  margin-right: auto;
   overflow-x: hidden;
   overflow-y: hidden;
   background-attachment: center;
