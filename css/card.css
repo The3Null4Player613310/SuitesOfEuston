@@ -99,6 +99,8 @@ div.card > div.card-content {
   font-size: 14px;
   overflow-x: hidden;
   overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: ‎‎#E1B664 #050A14;
 }
 
 div.card > div.card-content > img.card-picture {
