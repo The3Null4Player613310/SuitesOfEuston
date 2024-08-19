@@ -103,6 +103,20 @@ div.card > div.card-content {
   scrollbar-color: ‎‎#E1B664 #050A14;
 }
 
+div.card > div.card-content::-webkit-scrollbar {
+  width: 3px;
+}
+
+div.card > div.card-content::-webkit-scrollbar-thumb {
+  background-color: #050A14;
+  border-radius: 12px;
+  border: 1px solid #00000000;
+}
+
+div.card > div.card-content::-webkit-scrollbar-track {
+  background-color: #00000000;
+}
+
 div.card > div.card-content > img.card-picture {
   width: parent;
   height: calc(100%);
@@ -118,3 +132,5 @@ div.card > div.card-content > img.card-picture {
   background-size: cover;
   display: block;
 }
+
+
