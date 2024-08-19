@@ -22,6 +22,4 @@ body {
   background-position-y: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  scroll-snap-type: y mandatory;
 }
