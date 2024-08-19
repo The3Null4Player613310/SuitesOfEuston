@@ -51,15 +51,15 @@
 }
 
 div.card.card-height-short {
-  height: 214px;
+  height: calc(214px);
 }
 
 div.card.card-height-medium {
-  height: 428px;
+  height: calc(428px + 12px + 8px + 12px);
 }
 
 div.card.card-height-tall {
-  height: 642px;
+  height: calc(642px + 12px + 8px + 12px + 12px + 8px + 12px);
 }
 
 div.card {
