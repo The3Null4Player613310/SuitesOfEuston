@@ -8,8 +8,8 @@
 
 function bikeSubmit(event)
 {
-  event.preventDefault();
   
+  var valR = true;
   var ws = document.getElementById("H-WS").value;
   var msg = document.getElementById("H-MSG").value;
   var dateStart = document.getElementById("DATE-START").value;
@@ -17,19 +17,28 @@ function bikeSubmit(event)
   var body = ("").concat(msg, ws, "\n", "FROM:", ws, dateStart, ws, "TO:", ws, dateEnd);
   //alert(body);
   //alert(navigator.platform);
+  
+  if(navigator.platform === "iPhone") valR = true;
+  if(navigator.platform === "MacIntel") valR = false;
+  
   document.getElementById("H-BODY").value = msg;
   
   if(dateStart > dateEnd)
   {
     alert("Invalid Dates");
-    return false;
+    valR = false;
   }
   
-  document.getElementById("H-BODY").value = body;
+  if(valR)
+  {
+    document.getElementById("H-BODY").value = body;
+  }
+  else
+  {
+    event.preventDefault();
+  }
   
-  if(navigator.platform === "iPhone") return true;
-  if(navigator.platform === "MacIntel") return false;
-  return true;
+  return valR;
 }
 
 function bike()
