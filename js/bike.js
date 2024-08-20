@@ -10,6 +10,7 @@ function bikeSubmit()
   var dateEnd = document.getElementById("DATE-END").value;
   var body = ("").concat(msg, ws, "\n", "FROM:", ws, dateStart, ws, "TO:", ws, dateEnd);
   alert(body);
+  alert(navigator.platform);
   document.getElementById("H-BODY").value = body;
   return true;
 }
