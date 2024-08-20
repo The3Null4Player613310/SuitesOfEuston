@@ -29,7 +29,7 @@
 
 @media only screen and (min-width: 927px) {
   div.card {
-    width: calc(50% - 16px - 24px);
+    width: round(down, calc(49.500% - 16px - 24px), 1px);
     background-color: yellow;
   }
 
