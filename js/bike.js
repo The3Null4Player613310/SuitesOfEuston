@@ -6,9 +6,9 @@
 ################################################################
 */
 
-function bikeSubmit(e)
+function bikeSubmit(event)
 {
-  //event.preventDefault();
+  event.preventDefault();
   var ws = document.getElementById("H-WS").value;
   var msg = document.getElementById("H-MSG").value;
   var dateStart = document.getElementById("DATE-START").value;
