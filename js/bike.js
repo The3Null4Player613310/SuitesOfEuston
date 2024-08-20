@@ -6,10 +6,10 @@
 ################################################################
 */
 
-function bikeSubmit(event)
+function bikeSubmit()
 {
-  event.preventDefault();
-  alert(navigator.platform);
+  //event.preventDefault();
+  //alert(navigator.platform);
   var ws = document.getElementById("H-WS").value;
   var msg = document.getElementById("H-MSG").value;
   var dateStart = document.getElementById("DATE-START").value;
@@ -29,6 +29,6 @@ function bikeSubmit(event)
 
 function bike()
 {
-  var bikeForm = document.getElementById("FORM-RENT");
-  bikeForm.addEventListener("submit", bikeSubmit);
+  //var bikeForm = document.getElementById("FORM-RENT");
+  //bikeForm.addEventListener("submit", bikeSubmit);
 }
