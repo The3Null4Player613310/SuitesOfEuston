@@ -1,9 +1,8 @@
 function bike()
 {
+  var bikeForm = document.getElementById("FORM-RENT");
+  bikeForm.addEventListener("submit", bikeSubmit);
 }
-
-var bikeForm = document.getElementById("BIKE-FORM");
-bikeForm.addEventListener("submit", bikeSubmit);
 
 function bikeSubmit(event)
 {
