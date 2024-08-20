@@ -22,8 +22,9 @@ function bikeSubmit()
     return false;
   }
   document.getElementById("H-BODY").value = body;
-
+  
   if(navigator.platform === "iPhone") return true;
+  if(navigator.platform === "MacIntel") return false;
   return true;
 }
 
