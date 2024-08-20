@@ -8,6 +8,7 @@ function bikeSubmit()
   var dateStart = document.getElementById("DATE-START").value;
   var dateEnd = document.getElementById("DATE-END").value;
   var body = msg + " " + dateStart + " - " + dateEnd;
+  alert(body);
   document.getElementById("H-BODY").value = body;
   return true;
 }
