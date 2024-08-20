@@ -107,7 +107,7 @@
         </table>
       </div>
       <div class="card card-small" id="FORM-ROOM-CARD">
-        <form action="https://www.expedia.ca/Hotel-Search" method="get" target="_blank" autocomplete="on" name="Booking Form" id="FORM-BOOK">
+        <form action="https://www.expedia.ca/Hotel-Search" method="get" target="_blank" autocomplete="on" onsubmit="roomSubmit(event)" name="Booking Form" id="FORM-ROOM">
           <input type="hidden" id="FORM-ROOM-H-DESTINATION" name="destination" value="Suites of Euston">
           <input type="hidden" id="FORM-ROOM-H-REWARDS" name="useRewards" value="false">
           <input type="hidden" id="FORM-ROOM-H-SORT" name="sort" value="RECOMMENDED">
@@ -159,7 +159,7 @@
         Under Construction
       </div>
       <div class="card card-small card-height-short" id="FORM-BIKE-CARD">
-        <form action="sms:+1-902-314-0364" method="get" target="_blank" autocomplete="on" onsubmit="bikeSubmit(event)" name="Bike Rental Form" id="FORM-RENT">
+        <form action="sms:+1-902-314-0364" method="get" target="_blank" autocomplete="on" onsubmit="bikeSubmit(event)" name="Bike Rental Form" id="FORM-BIKE">
           <input type="hidden" id="FORM-BIKE-H-BODY" name="body" value="Hi&nbsp;Todd,&nbsp;I'd&nbsp;like&nbsp;to&nbsp;rent&nbsp;a&nbsp;bike.">
           <input type="hidden" id="FORM-BIKE-H-MSG" name="msg" value="Hi&nbsp;Todd,&nbsp;I'd&nbsp;like&nbsp;to&nbsp;rent&nbsp;a&nbsp;bike.">
           <input type="hidden" id="FORM-BIKE-H-WS" name="ws" value="&nbsp;">
