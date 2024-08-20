@@ -26,27 +26,33 @@
 
 @media only screen and (min-width: 927px) {
   div.card {
-    width: round(down, calc(49.500% - 16px - 24px), 1px);
+    --card-width-raw: calc(49.500% - 16px - 24px);
+    width: round(down, var(--card-width-raw), 1px);
   }
 
   div.card.card-tiny {
-    width: round(down, calc(16.499% - 16px - 24px), 1px);
+    --card-width-tiny-raw: calc(16.499% - 16px - 24px);
+    width: round(down, var(--card-width-tiny-raw), 1px);
   }
 
   div.card.card-small {
-    width: round(down, calc(32.999% - 16px - 24px), 1px);
+    --card-width-small-raw: calc(32.999% - 16px - 24px);
+    width: round(down, var(--card-width-small-raw), 1px);
   }
 
   div.card.card-medium {
-    width: round(down, calc(49.500% - 16px - 24px), 1px);
+    --card-width-medium-raw: calc(49.500% - 16px - 24px);
+    width: round(down, var(--card-width-medium-raw), 1px);
   }
 
   div.card.card-large {
-    width: round(down, calc(65.999% - 16px - 24px), 1px);
+    --card-width-large-raw: calc(65.999% - 16px - 24px);
+    width: round(down, var(--card-width-large-raw), 1px);
   }
 
   div.card.card-huge {
-    width: round(down, calc(82.499% - 16px - 24px), 1px);
+    --card-width-huge-raw: calc(82.499% - 16px - 24px);
+    width: round(down, var(--card-width-huge-raw), 1px);
   }
 }
 
