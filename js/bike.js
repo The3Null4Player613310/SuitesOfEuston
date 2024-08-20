@@ -14,6 +14,7 @@ function bike()
 
 function bikeSubmit(event)
 {
+  event.preventDefault();
   alert(navigator.platform);
   var ws = document.getElementById("H-WS").value;
   var msg = document.getElementById("H-MSG").value;
@@ -24,7 +25,6 @@ function bikeSubmit(event)
   alert(navigator.platform);
   if(dateStart > dateEnd)
   {
-    event.preventDefault();
     return false;
   }
   document.getElementById("H-BODY").value = body;
