@@ -51,7 +51,7 @@
           Suites of Euston
        </div>
        <div class="header-item right">
-         <a href="#FORM-BOOK-CARD">
+         <a href="#FORM-ROOM-CARD">
            <div>
              Book Now
            </div>
@@ -106,12 +106,12 @@
           </tbody>
         </table>
       </div>
-      <div class="card card-small" id="FORM-BOOK-CARD">
+      <div class="card card-small" id="FORM-ROOM-CARD">
         <form action="https://www.expedia.ca/Hotel-Search" method="get" target="_blank" autocomplete="on" name="Booking Form" id="FORM-BOOK">
-          <input type="hidden" id="H-DESTINATION" name="destination" value="Suites of Euston">
-          <input type="hidden" id="H-REWARDS" name="useRewards" value="false">
-          <input type="hidden" id="H-SORT" name="sort" value="RECOMMENDED">
-          <input type="hidden" id="H-SELECTED" name="selected" value="4592304">
+          <input type="hidden" id="FORM-ROOM-H-DESTINATION" name="destination" value="Suites of Euston">
+          <input type="hidden" id="FORM-ROOM-H-REWARDS" name="useRewards" value="false">
+          <input type="hidden" id="FORM-ROOM-H-SORT" name="sort" value="RECOMMENDED">
+          <input type="hidden" id="FORM-ROOM-H-SELECTED" name="selected" value="4592304">
           <table>
             <thead>
             </thead>
@@ -120,16 +120,16 @@
                 <td span="3">BOOK</td>
               </tr>
               <tr>
-                <td><label for="ADULTS">Guests:</label></td>
-                <td span="2"><input type="number" id="ADULTS" name="adults" value="2" min="1" max="5"></td>
+                <td><label for="FORM-ROOM-ADULTS">Guests:</label></td>
+                <td span="2"><input type="number" id="FORM-ROOM-ADULTS" name="adults" value="2" min="1" max="5"></td>
               </tr>
               <tr>
-                <td><label for="CHECK-IN">Check-in date:</label></td>
-                <td span="2"><input type="date" id="CHECK-IN" name="startDate" required></td>
+                <td><label for="FORM-ROOM-CHECK-IN">Check-in date:</label></td>
+                <td span="2"><input type="date" id="FORM-ROOM-CHECK-IN" name="startDate" required></td>
               </tr>
               <tr>
-                <td><label for="CHECK-OUT">Check-out date:</label></td>
-                <td span="2"><input type="date" id="CHECK-OUT" name="endDate" required></td>
+                <td><label for="FORM-ROOM-CHECK-OUT">Check-out date:</label></td>
+                <td span="2"><input type="date" id="FORM-ROOM-CHECK-OUT" name="endDate" required></td>
               </tr>
               <tr>
                 <td span="2"></td>
@@ -158,23 +158,23 @@
       <div class="card card-large">
         Under Construction
       </div>
-      <div class="card card-small card-height-short" id="FORM-RENT-CARD">
+      <div class="card card-small card-height-short" id="FORM-BIKE-CARD">
         <form action="sms:+1-902-314-0364" method="get" target="_blank" autocomplete="on" onsubmit="bikeSubmit(event)" name="Bike Rental Form" id="FORM-RENT">
-          <input type="hidden" id="H-BODY" name="body" value="Hi&nbsp;Todd,&nbsp;I'd&nbsp;like&nbsp;to&nbsp;rent&nbsp;a&nbsp;bike.">
-          <input type="hidden" id="H-MSG" name="msg" value="Hi&nbsp;Todd,&nbsp;I'd&nbsp;like&nbsp;to&nbsp;rent&nbsp;a&nbsp;bike.">
-          <input type="hidden" id="H-WS" name="ws" value="&nbsp;">
+          <input type="hidden" id="FORM-BIKE-H-BODY" name="body" value="Hi&nbsp;Todd,&nbsp;I'd&nbsp;like&nbsp;to&nbsp;rent&nbsp;a&nbsp;bike.">
+          <input type="hidden" id="FORM-BIKE-H-MSG" name="msg" value="Hi&nbsp;Todd,&nbsp;I'd&nbsp;like&nbsp;to&nbsp;rent&nbsp;a&nbsp;bike.">
+          <input type="hidden" id="FORM-BIKE-H-WS" name="ws" value="&nbsp;">
           <table>
             <tbody>
               <tr>
                 <td span="3">RENT A BIKE</td>
               </tr>
               <tr>
-                <td><label for="DATE-START">Start date:</label></td>
-                <td span="2"><input type="date" id="DATE-START" name="DateStart" required></td>
+                <td><label for="FORM-BIKE-DATE-START">Start date:</label></td>
+                <td span="2"><input type="date" id="FORM-BIKE-DATE-START" name="DateStart" required></td>
               </tr>
               <tr>
-                <td><label for="DATE-END">End date:</label></td>
-                <td span="2"><input type="date" id="DATE-END" name="DateEnd" required></td>
+                <td><label for="FORM-BIKE-DATE-END">End date:</label></td>
+                <td span="2"><input type="date" id="FORM-BIKE-DATE-END" name="DateEnd" required></td>
               </tr>
               <tr>
                 <td span="2"></td>
