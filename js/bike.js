@@ -8,7 +8,6 @@
 
 function bikeSubmit(e)
 {
-  alert(e);
   //event.preventDefault();
   var ws = document.getElementById("H-WS").value;
   var msg = document.getElementById("H-MSG").value;
