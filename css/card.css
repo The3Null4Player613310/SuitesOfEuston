@@ -27,32 +27,26 @@
 @media only screen and (min-width: 927px) {
   div.card {
     width: calc(49.500% - 16px - 24px);
-    --width: round(down, var(--card-width-raw), 1px);
   }
 
   div.card.card-tiny {
     width: calc(16.499% - 16px - 24px);
-    --width: round(down, var(--card-width-tiny-raw), 1px);
   }
 
   div.card.card-small {
     width: calc(32.999% - 16px - 24px);
-    --width: round(down, var(--card-width-small-raw), 1px);
   }
 
   div.card.card-medium {
     width: calc(49.500% - 16px - 24px);
-    --width: round(down, var(--card-width-medium-raw), 1px);
   }
 
   div.card.card-large {
     width: calc(65.999% - 16px - 24px);
-    --width: round(down, var(--card-width-large-raw), 1px);
   }
 
   div.card.card-huge {
     width: calc(82.499% - 16px - 24px);
-    --width: round(down, var(--card-width-huge-raw), 1px);
   }
 }
 
