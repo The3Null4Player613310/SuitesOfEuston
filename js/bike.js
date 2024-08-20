@@ -6,17 +6,17 @@
 ################################################################
 */
 
-function bikeSubmit()
+function bikeSubmit(e)
 {
+  alert(e);
   //event.preventDefault();
-  //alert(navigator.platform);
   var ws = document.getElementById("H-WS").value;
   var msg = document.getElementById("H-MSG").value;
   var dateStart = document.getElementById("DATE-START").value;
   var dateEnd = document.getElementById("DATE-END").value;
   var body = ("").concat(msg, ws, "\n", "FROM:", ws, dateStart, ws, "TO:", ws, dateEnd);
-  alert(body);
-  alert(navigator.platform);
+  //alert(body);
+  //alert(navigator.platform);
   if(dateStart > dateEnd)
   {
     return false;
