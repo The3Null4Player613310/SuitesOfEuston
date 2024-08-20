@@ -6,12 +6,6 @@
 ################################################################
 */
 
-function bike()
-{
-  var bikeForm = document.getElementById("FORM-RENT");
-  bikeForm.addEventListener("submit", bikeSubmit);
-}
-
 function bikeSubmit(event)
 {
   event.preventDefault();
@@ -31,4 +25,10 @@ function bikeSubmit(event)
 
   if(navigator.platform === "iPhone") return true;
   return true;
+}
+
+function bike()
+{
+  var bikeForm = document.getElementById("FORM-RENT");
+  bikeForm.addEventListener("submit", bikeSubmit);
 }
