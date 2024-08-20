@@ -12,5 +12,7 @@ function bikeSubmit()
   alert(body);
   alert(navigator.platform);
   document.getElementById("H-BODY").value = body;
+  if(dateStart > dateEnd) return false;
+  if(navigator.platform === "iPhone") return true;
   return true;
 }
