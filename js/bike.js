@@ -10,10 +10,10 @@ function bikeSubmit(event)
 {
   
   var valR = true;
-  var ws = document.getElementById("H-WS").value;
-  var msg = document.getElementById("H-MSG").value;
-  var dateStart = document.getElementById("DATE-START").value;
-  var dateEnd = document.getElementById("DATE-END").value;
+  var ws = document.getElementById("FORM-BIKE-H-WS").value;
+  var msg = document.getElementById("FORM-BIKE-H-MSG").value;
+  var dateStart = document.getElementById("FORM-BIKE-DATE-START").value;
+  var dateEnd = document.getElementById("FORM-BIKE-DATE-END").value;
   var body = ("").concat(msg, ws, "\n", "FROM:", ws, dateStart, ws, "TO:", ws, dateEnd);
   //alert(body);
   //alert(navigator.platform);
@@ -21,7 +21,7 @@ function bikeSubmit(event)
   if(navigator.platform === "iPhone") valR = true;
   if(navigator.platform === "MacIntel") valR = false;
   
-  document.getElementById("H-BODY").value = msg;
+  document.getElementById("FORM-BIKE-H-BODY").value = msg;
   
   if(dateStart > dateEnd)
   {
@@ -31,7 +31,7 @@ function bikeSubmit(event)
   
   if(valR)
   {
-    document.getElementById("H-BODY").value = body;
+    document.getElementById("FORM-BIKE-H-BODY").value = body;
   }
   else
   {
