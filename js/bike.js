@@ -10,5 +10,5 @@ function bikeSubmit()
   var body = ("").concat(msg, " ", dateStart, " - ", dateEnd);
   alert(body);
   document.getElementById("H-BODY").value = body;
-  return false;
+  return true;
 }
