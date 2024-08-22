@@ -15,6 +15,6 @@
   ],
   "start_url": "/SuitesOfEuston/index.html",
   "display": "standalone",
-  "theme_color": "#E1B664",
-  "background_color": "#8B655E"
+  "theme_color": "#8B655E",
+  "background_color": "#E1B664"
 }
