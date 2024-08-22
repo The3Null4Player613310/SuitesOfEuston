@@ -1,0 +1,20 @@
+{
+  "short_name": "SoE",
+  "name": "Suites of Euston",
+  "icons": [
+    {
+      "src": "/SuitesOfEuston/img/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/SuitesOfEuston/img/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/SuitesOfEuston/index.html",
+  "display": "standalone",
+  "theme_color": "#E1B664",
+  "background_color": "#8B655E"
+}
