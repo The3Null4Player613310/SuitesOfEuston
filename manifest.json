@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/SuitesOfEuston/index.html",
+  "start_url": "/SuitesOfEuston/app.html",
   "display": "standalone",
   "theme_color": "#050A14",
   "background_color": "#8B655E"
