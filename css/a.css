@@ -12,10 +12,13 @@ a {
 }
 
 a:visited {
+  color: #9A6F1C;
 }
 
 a:hover {
+  color: #FFDC98;
 }
 
 a:active {
+  color: #FFE9C1;
 }
