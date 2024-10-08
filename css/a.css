@@ -10,3 +10,12 @@ a {
     color: #BE913C;
     text-decoration: none !important;
 }
+
+a:visited {
+}
+
+a:hover {
+}
+
+a:active {
+}
